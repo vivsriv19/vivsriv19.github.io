@@ -172,8 +172,8 @@ table#home tr td#center-home{
 
 
 .red-token, .blue-token, .green-token, .yellow-token{    
-    width: 25px;
-    height: 25px;    
+    width: 20px;
+    height: 20px;    
     cursor: pointer;
 }
 
@@ -274,20 +274,20 @@ tr td span.yellow-token::before {
 
 @media  (min-width: 319px) and (max-width: 767px) {
     table tr td{    
-        width: 20px;
-        height:20px;    
+        width: 23px;
+        height:23px;    
     }
 
     tr td::before{
         font-size: 12px;        
     }
 
-    tr td.red-token::before {    
+    tr td.red-token::before, tr td.green-token::before, tr td.yellow-token::before, tr td.blue-token::before {    
         width: 11px;
         height: 11px;        
     }
     
-    tr td span.red-token::before {    
+    tr td span.red-token::before, tr td span.green-token::before, tr td span.yellow-token::before, tr td span.blue-token::before {    
         width: 11px;
         height: 11px;            
     }
