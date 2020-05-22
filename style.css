@@ -17,6 +17,10 @@ font-size:18px;
 margin-left:10px;
 }
 
+#diceNum{
+    margin: 0 0 0 50px;
+}
+
 table{
     float: left;
 }
