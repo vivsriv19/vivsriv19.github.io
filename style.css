@@ -1,0 +1,290 @@
+/* div#green, div#home, div#red{
+    display: inline-block;
+} */
+.clear{
+    clear:both;
+}
+
+#right .diceClick{
+
+}
+
+.diceClick {
+    border:1px solid #cccccc;
+display: inline-block;
+padding:5px;
+font-size:18px;
+margin-left:10px;
+}
+
+table{
+    float: left;
+}
+
+table tr td{    
+    width: 50px;
+    height:50px;    
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+table tr td span{
+    position: relative;
+}
+
+table tr td.cell-8{
+    background: #cccccc;
+}
+
+table#red tr td,table#green tr td,table#yellow tr td,table#blue tr td{
+    border: 1px solid #cccccc;
+}
+
+.clear-both{
+    clear:both;
+}
+
+table#home{
+    background: #e6e6ff;
+}
+
+table#red tr:not(:last-child) td:nth-child(2){
+    background:#ff4d4d;
+}
+
+table#green tr:nth-child(2) td:not(:first-child){
+    background:#00b33c;
+}
+
+
+table#yellow tr:not(:first-child) td:nth-child(2){
+    background:#ffcc00;
+}
+
+table#blue tr:nth-child(2) td:not(:last-child){
+    background:#1a75ff;
+
+}
+
+table#home tr td{
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 50%;    
+}
+
+table#home tr td#red-home{
+    background:#FF5655; 
+}
+
+table#home tr td#green-home{
+    background:#00b33c; 
+}
+
+table#home tr td#yellow-home{
+    background:#ffcc00; 
+}
+
+table#home tr td#blue-home{
+    background:#1a75ff; 
+}
+
+table#home tr td#center-home{
+    background:#cccccc; 
+}
+
+
+#red-start{
+    float:left;    
+}
+
+#red .start{
+    background:#FF5655;
+}
+
+#green-start{
+    float:left;
+}
+
+#green .start{    
+    background:#00b33c;
+}
+
+#yellow-start{
+    float:left;    
+}
+
+#yellow .start{    
+    background:#ffcc00;
+}
+
+#blue-start{
+    float:left;    
+}
+
+#blue .start{    
+    background:#1a75ff;
+}
+
+#red-start tr:first-child,#red-start tr:last-child,#red-start tr:not(:first-child) td:first-child,#red-start tr:not(:first-child) td:last-child{    
+    background:#FF5655;
+}
+
+#yellow-start tr:first-child,#yellow-start tr:last-child,#yellow-start tr:not(:first-child) td:first-child,#yellow-start tr:not(:first-child) td:last-child{    
+    background:#ffcc00;
+}
+
+#blue-start tr:first-child,#blue-start tr:last-child,#blue-start tr:not(:first-child) td:first-child,#blue-start tr:not(:first-child) td:last-child{    
+    background:#1a75ff;
+}
+
+#green-start tr:first-child,#green-start tr:last-child,#green-start tr:not(:first-child) td:first-child,#green-start tr:not(:first-child) td:last-child{    
+    background:#00b33c;
+}
+
+#green-start td[data-token='token-1'], #green-start td[data-token='token-2'], #green-start td[data-token='token-3'], #green-start td[data-token='token-4']{
+    background: #00b33c;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#red-start td[data-token='token-1'], #red-start td[data-token='token-2'], #red-start td[data-token='token-3'], #red-start td[data-token='token-4']{
+    background: #FF5655;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#blue-start td[data-token='token-1'], #blue-start td[data-token='token-2'], #blue-start td[data-token='token-3'], #blue-start td[data-token='token-4']{
+    background: #1a75ff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#yellow-start td[data-token='token-1'], #yellow-start td[data-token='token-2'], #yellow-start td[data-token='token-3'], #yellow-start td[data-token='token-4']{
+    background: #ffcc00;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.red-token, .blue-token, .green-token, .yellow-token{    
+    width: 25px;
+    height: 25px;    
+    cursor: pointer;
+}
+
+table.cells tr td span{
+    display: inline-block;
+}
+
+.red-token span, .blue-token span, .green-token span, .yellow-token span{
+    position: absolute;    
+    top: 5px;
+    left: 40%;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+tr td::before{
+    text-align: center;
+    display: block;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+tr td.red-token::before {    
+    content: "";
+    background: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+tr td span.red-token::before {    
+    content: "";
+    background: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+
+}
+
+tr td.blue-token::before {    
+    content: "";
+    background:blue;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+tr td span.blue-token::before {    
+    content: "";
+    background: blue;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+
+}
+
+tr td.green-token::before {    
+    content: "";
+    background:green;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+tr td span.green-token::before {    
+    content: "";
+    background: green;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+
+}
+
+tr td.yellow-token::before {    
+    content: "";
+    background:yellow;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+tr td span.yellow-token::before {    
+    content: "";
+    background: yellow;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+
+}
+
+@media  (min-width: 319px) and (max-width: 767px) {
+    table tr td{    
+        width: 20px;
+        height:20px;    
+    }
+
+    tr td::before{
+        font-size: 12px;        
+    }
+
+    tr td.red-token::before {    
+        width: 11px;
+        height: 11px;        
+    }
+    
+    tr td span.red-token::before {    
+        width: 11px;
+        height: 11px;            
+    }
+}

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<title>App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">   
+        <table id="green-start" cellspacing="0" cellpadding="0">
+        <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td data-token="token-1" class="green-token"></td>
+                <td></td>
+                <td></td>
+                <td data-token="token-2" class="green-token"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td data-token="token-3" class="green-token"></td>
+                    <td></td>
+                    <td></td>
+                    <td data-token="token-4" class="green-token"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr> 
+            </table>  
+            <table class="cells" id="yellow" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td class="cell-10"></td>
+                        <td class="cell-11"></td>
+                        <td class="cell-12"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell-9"></td>
+                        <td class="cell-13"></td>
+                        <td class="cell-0 start"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell-8"></td>
+                        <td class="cell-14"></td>
+                        <td class="cell-1"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell-7"></td>
+                        <td class="cell-15"></td>
+                        <td class="cell-2"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell-6"></td>
+                        <td class="cell-16"></td>
+                        <td class="cell-3"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell-5"></td>
+                        <td class="cell-17"></td>
+                        <td class="cell-4"></td>
+                    </tr>    
+                </table>    
+                <table id="yellow-start" cellspacing="0" cellpadding="0">
+                        <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td data-token="token-1" class="yellow-token"></td>
+                                <td></td>
+                                <td></td>
+                                <td data-token="token-2" class="yellow-token"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td data-token="token-3" class="yellow-token"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td data-token="token-4" class="yellow-token"></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr> 
+                            </table>                                 
+                                                      
+        <div class="clear-both"></div>
+            <table class="cells"  id="green" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td class="cell-12"></td>
+                        <td class="cell-0 start"></td>
+                        <td class="cell-1"></td>
+                        <td class="cell-2"></td>
+                        <td class="cell-3"></td>
+                        <td class="cell-4"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell-11"></td>
+                        <td class="cell-13"></td>
+                        <td class="cell-14"></td>
+                        <td class="cell-15"></td>
+                        <td class="cell-16"></td>
+                        <td class="cell-17"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell-10"></td>
+                        <td class="cell-9"></td>
+                        <td class="cell-8"></td>
+                        <td class="cell-7"></td>
+                        <td class="cell-6"></td>
+                        <td class="cell-5"></td>
+                    </tr>              
+            </table> 
+
+            <table id="home" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td></td>
+                        <td id="yellow-home"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="green-home"></td>
+                        <td id="center-home"></td>
+                        <td id="blue-home"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td id="red-home"></td>
+                        <td></td>
+                    </tr>              
+            </table>    
+            <table class="cells" id="blue" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td class="cell-5"></td>
+                        <td class="cell-6"></td>
+                        <td class="cell-7"></td>
+                        <td class="cell-8"></td>
+                        <td class="cell-9"></td>
+                        <td class="cell-10"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell-17"></td>
+                        <td class="cell-16"></td>
+                        <td class="cell-15"></td>
+                        <td class="cell-14"></td>
+                        <td class="cell-13"></td>
+                        <td class="cell-11"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell-4"></td>
+                        <td class="cell-3"></td>
+                        <td class="cell-2"></td>
+                        <td class="cell-1"></td>
+                        <td class="cell-0 start"></td>
+                        <td class="cell-12"></td>
+                    </tr>              
+            </table>                       
+            <div class="clear-both"></div>
+
+        <table id="red-start" cellspacing="0" cellpadding="0">
+            <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td data-token="token-1" class="red-token"></td>
+                    <td></td>
+                    <td></td>
+                    <td data-token="token-2" class="red-token"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td data-token="token-3" class="red-token"></td>
+                        <td></td>
+                        <td></td>
+                        <td data-token="token-4" class="red-token"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr> 
+                </table>               
+        <table class="cells" id="red" cellspacing="0" cellpadding="0">
+            <tr>
+                <td class="cell-4"></td>
+                <td class="cell-17"></td>
+                <td class="cell-5"></td>
+            </tr>
+            <tr>
+                <td class="cell-3"></td>
+                <td class="cell-16"></td>
+                <td class="cell-6"></td>
+            </tr>
+            <tr>
+                <td class="cell-2"></td>
+                <td class="cell-15"></td>
+                <td class="cell-7"></td>
+            </tr>
+            <tr>
+                <td class="cell-1"></td>
+                <td class="cell-14"></td>
+                <td class="cell-8"></td>
+            </tr>
+            <tr>
+                <td class="cell-0 start"></td>
+                <td class="cell-13"></td>
+                <td class="cell-9"></td>
+            </tr>
+            <tr>
+                <td class="cell-12"></td>
+                <td class="cell-11"></td>
+                <td class="cell-10"></td>
+            </tr>    
+        </table>  
+        <table id="blue-start" cellspacing="0" cellpadding="0">
+                <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td data-token="token-1" class="blue-token"></td>
+                        <td></td>
+                        <td></td>
+                        <td data-token="token-2" class="blue-token"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td data-token="token-3" class="blue-token"></td>
+                            <td></td>
+                            <td></td>
+                            <td data-token="token-4" class="blue-token"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr> 
+                    </table>           
+</div>    
+<div style="clear:both"></div>
+<div id="right" class="right">    
+    <!-- <a id="diceClick" href="javascript:void(0)">Click Dice</a>&nbsp;&nbsp;<span id="diceNum"></span> -->
+    <span id="diceNum"></span><br>
+    <a class="diceClick" href="javascript:void(0)">1</a>&nbsp;&nbsp;<a class="diceClick" href="javascript:void(0)">2</a><br>
+    <a class="diceClick" href="javascript:void(0)">3</a>&nbsp;&nbsp;<a class="diceClick" href="javascript:void(0)">4</a><br>
+    <a class="diceClick" href="javascript:void(0)">5</a>&nbsp;&nbsp;<a class="diceClick" href="javascript:void(0)">6</a><br>
+</div>
+<script src="script.min.js"></script>
+</body>
+</html>
